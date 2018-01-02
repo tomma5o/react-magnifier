@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import { cdn } from '../../../utils/variables';
 
 export default class Magnifier extends Component {
     
@@ -46,7 +45,7 @@ export default class Magnifier extends Component {
                     <img
                         className="magnifier__zoomedImage"
                         style={styleZoomedImage}
-                        src={cdn(this.props.imgUrl)}/>
+                        src={this.props.imgUrl}/>
                 </div>
             )
         }

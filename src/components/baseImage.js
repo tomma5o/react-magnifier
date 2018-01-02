@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import { cdn } from '../../../utils/variables';
 
 export default class BaseImage extends Component {
     
@@ -37,7 +36,7 @@ export default class BaseImage extends Component {
                 <div className="baseImage" style={{position:"relative"}}>
                     <img
                         className="baseImage__image"
-                        src={cdn(this.props.imgUrl)}
+                        src={this.props.imgUrl}
                         onMouseEnter={(e)=>{this.subscribeEvt(e.target); this.props.onHovering(true)}}
                         onMouseLeave={(e)=>{this.unsubscribeEvt(e.target); this.props.onHovering(false)}}/>
                 </div>

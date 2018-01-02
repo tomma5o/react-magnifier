@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { cdn } from '../../utils/variables';
 import BaseImage from './components/baseImage';
 import Magnifier from './components/magnifier';
 
