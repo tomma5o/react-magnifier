@@ -1,10 +1,10 @@
 module.exports = {
 
     entry: {
-        reactMagnifier: './src/index.js',
+        index: './src/index.js',
     },
     output: {
-        filename: './dist/react-magnifier.js'
+        filename: './index.js'
     },
     module: {
         rules: [
