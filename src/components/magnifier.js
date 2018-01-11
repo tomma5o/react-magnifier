@@ -25,6 +25,7 @@ export default class Magnifier extends Component {
             }
     
             const styleMagnifier = {
+                position: 'relative',
                 width:`${this.props.navSize.w}px`,
                 height:`${this.props.navSize.h}px`,
                 display: this.props.onHover ? "block" : "none",

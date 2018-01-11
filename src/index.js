@@ -89,4 +89,5 @@ ImageMagnifier.propTypes = {
     urlLQ: PropTypes.string.isRequired,
     urlHQ: PropTypes.string.isRequired,
     navSize: PropTypes.object.isRequired,
+    imgSizes: PropTypes.object.isRequired
 };
